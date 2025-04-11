@@ -1,0 +1,210 @@
+[
+    {
+        "pergunta": "O que é a AWS?",
+        "resposta": "Amazon Web Services (AWS) é uma plataforma de computação em nuvem segura que oferece poder de computação, armazenamento de banco de dados, entrega de conteúdo e outras funcionalidades para ajudar as empresas a escalar e crescer."
+    },
+    {
+        "pergunta": "Quais são os modelos de computação em nuvem oferecidos pela AWS?",
+        "resposta": "AWS oferece três modelos: 1) Infraestrutura como Serviço (IaaS), 2) Plataforma como Serviço (PaaS) e 3) Software como Serviço (SaaS)."
+    },
+    {
+        "pergunta": "O que é uma região AWS?",
+        "resposta": "Uma região AWS é um local físico no mundo onde a AWS possui múltiplos data centers chamados de Availability Zones (AZs). Cada região é uma área geográfica separada com múltiplas AZs isoladas."
+    },
+    {
+        "pergunta": "O que é uma Availability Zone (AZ)?",
+        "resposta": "Uma Availability Zone é um ou mais data centers discretos com energia, rede e conectividade redundantes em uma região AWS. São projetadas para serem isoladas de falhas em outras AZs."
+    },
+    {
+        "pergunta": "Qual é o serviço de computação básico da AWS?",
+        "resposta": "Amazon Elastic Compute Cloud (EC2) é o serviço fundamental de computação da AWS que fornece capacidade computacional segura e redimensionável na nuvem."
+    },
+    {
+        "pergunta": "O que é Amazon S3?",
+        "resposta": "Amazon Simple Storage Service (S3) é um serviço de armazenamento de objetos que oferece escalabilidade, disponibilidade de dados, segurança e desempenho líder do setor."
+    },
+    {
+        "pergunta": "Qual é a diferença entre Amazon S3 e Amazon EBS?",
+        "resposta": "S3 é para armazenamento de objetos (ideal para backups, arquivamento), enquanto EBS (Elastic Block Store) é para armazenamento em bloco (volumes persistentes para instâncias EC2)."
+    },
+    {
+        "pergunta": "O que é Amazon VPC?",
+        "resposta": "Amazon Virtual Private Cloud (VPC) permite provisionar uma seção isolada logicamente da nuvem AWS onde você pode lançar recursos AWS em uma rede virtual que você define."
+    },
+    {
+        "pergunta": "O que é AWS Lambda?",
+        "resposta": "AWS Lambda é um serviço de computação sem servidor que executa código em resposta a eventos e gerencia automaticamente os recursos de computação subjacentes."
+    },
+    {
+        "pergunta": "O que é o AWS CloudFormation?",
+        "resposta": "AWS CloudFormation é um serviço que ajuda a modelar e configurar recursos AWS para que você gaste menos tempo gerenciando esses recursos e mais tempo com seus aplicativos."
+    },
+    {
+        "pergunta": "Qual é o serviço de banco de dados relacional gerenciado da AWS?",
+        "resposta": "Amazon Relational Database Service (RDS) facilita a configuração, operação e escalonamento de um banco de dados relacional na nuvem."
+    },
+    {
+        "pergunta": "O que é Amazon DynamoDB?",
+        "resposta": "Amazon DynamoDB é um banco de dados NoSQL totalmente gerenciado que fornece desempenho rápido e previsível com escalabilidade perfeita."
+    },
+    {
+        "pergunta": "O que é o AWS Shared Responsibility Model?",
+        "resposta": "É um modelo que define que a AWS é responsável pela segurança 'da' nuvem (infraestrutura), enquanto o cliente é responsável pela segurança 'na' nuvem (seus dados, configurações)."
+    },
+    {
+        "pergunta": "O que é AWS IAM?",
+        "resposta": "AWS Identity and Access Management (IAM) permite gerenciar com segurança o acesso aos serviços e recursos da AWS para usuários."
+    },
+    {
+        "pergunta": "O que é o AWS Well-Architected Framework?",
+        "resposta": "É uma abordagem para avaliar arquiteturas e implementar designs escaláveis, eficientes e seguros na nuvem, baseado em cinco pilares: excelência operacional, segurança, confiabilidade, eficiência de desempenho e otimização de custos."
+    },
+    {
+        "pergunta": "O que é Amazon CloudFront?",
+        "resposta": "Amazon CloudFront é um serviço de rede de entrega de conteúdo (CDN) que entrega dados, vídeos, aplicativos e APIs a clientes globalmente com baixa latência e altas velocidades de transferência."
+    },
+    {
+        "pergunta": "O que é AWS Elastic Beanstalk?",
+        "resposta": "AWS Elastic Beanstalk é um serviço de PaaS (Platform as a Service) que facilita a implantação e escalonamento de aplicativos web e serviços desenvolvidos em Java, .NET, PHP, Node.js, Python, Ruby, Go e Docker."
+    },
+    {
+        "pergunta": "O que é Amazon Route 53?",
+        "resposta": "Amazon Route 53 é um serviço de DNS (Sistema de Nomes de Domínio) altamente disponível e escalável da AWS que direciona os usuários para aplicativos da Internet."
+    },
+    {
+        "pergunta": "O que é AWS Auto Scaling?",
+        "resposta": "AWS Auto Scaling ajuda a manter a disponibilidade do aplicativo e permite adicionar ou remover automaticamente instâncias EC2 de acordo com as condições definidas."
+    },
+    {
+        "pergunta": "O que é AWS CloudWatch?",
+        "resposta": "Amazon CloudWatch é um serviço de monitoramento para recursos AWS e aplicativos executados na AWS. Ele coleta e rastreia métricas, registra arquivos de log e define alarmes."
+    },
+    {
+        "pergunta": "O que é AWS Organizations?",
+        "resposta": "AWS Organizations ajuda a gerenciar várias contas AWS. Ele permite centralizar várias contas AWS em uma organização que você cria e administra."
+    },
+    {
+        "pergunta": "O que é o AWS Trusted Advisor?",
+        "resposta": "AWS Trusted Advisor é uma ferramenta que fornece recomendações em tempo real para ajudar a provisionar recursos seguindo as melhores práticas da AWS."
+    },
+    {
+        "pergunta": "O que é AWS Snowball?",
+        "resposta": "AWS Snowball é um serviço de transferência de dados que utiliza dispositivos físicos seguros para transferir grandes quantidades de dados para dentro e para fora da AWS."
+    },
+    {
+        "pergunta": "O que é o AWS Artifact?",
+        "resposta": "AWS Artifact é o recurso central para relatórios de conformidade e documentos de acordo que você pode baixar para fins de auditoria e regulamentação."
+    },
+    {
+        "pergunta": "O que é AWS Shield?",
+        "resposta": "AWS Shield é um serviço gerenciado de proteção contra DDoS (Distributed Denial of Service) que protege aplicativos executados na AWS."
+    },
+    {
+        "pergunta": "O que é AWS WAF?",
+        "resposta": "AWS Web Application Firewall (WAF) ajuda a proteger aplicativos web contra explorações comuns que podem afetar a disponibilidade, comprometer a segurança ou consumir recursos em excesso."
+    },
+    {
+        "pergunta": "O que é Amazon Kinesis?",
+        "resposta": "Amazon Kinesis facilita a coleta, processamento e análise de dados de streaming em tempo real para obter insights oportunos e reagir rapidamente a novas informações."
+    },
+    {
+        "pergunta": "O que é AWS Fargate?",
+        "resposta": "AWS Fargate é um mecanismo de computação sem servidor para contêineres que funciona com Amazon ECS e EKS, eliminando a necessidade de gerenciar servidores."
+    },
+    {
+        "pergunta": "O que é Amazon EKS?",
+        "resposta": "Amazon Elastic Kubernetes Service (EKS) é um serviço gerenciado que facilita a execução do Kubernetes na AWS sem precisar instalar e operar seu próprio plano de controle Kubernetes."
+    },
+    {
+        "pergunta": "O que é AWS Step Functions?",
+        "resposta": "AWS Step Functions é um serviço de orquestração de fluxo de trabalho que facilita a coordenação dos componentes de microsserviços distribuídos de aplicativos usando fluxos de trabalho visuais."
+    },
+    {
+        "pergunta": "O que é AWS X-Ray?",
+        "resposta": "AWS X-Ray ajuda desenvolvedores a analisar e depurar aplicativos distribuídos em produção, fornecendo uma visão das solicitações à medida que percorrem os componentes do aplicativo."
+    },
+    {
+        "pergunta": "O que é AWS Config?",
+        "resposta": "AWS Config é um serviço que permite avaliar, auditar e avaliar as configurações dos recursos AWS para facilitar a governança de TI e a conformidade regulatória."
+    },
+    {
+        "pergunta": "O que é AWS Systems Manager?",
+        "resposta": "AWS Systems Manager é um serviço que ajuda a automatizar tarefas operacionais em recursos AWS, gerenciar instâncias em escala e manter a conformidade."
+    },
+    {
+        "pergunta": "O que é AWS Backup?",
+        "resposta": "AWS Backup é um serviço totalmente gerenciado que centraliza e automatiza o backup de dados em serviços AWS como EBS, RDS, DynamoDB, EFS e Storage Gateway."
+    },
+    {
+        "pergunta": "O que é AWS Direct Connect?",
+        "resposta": "AWS Direct Connect é um serviço de rede que estabelece uma conexão de rede dedicada entre seu data center e a AWS, reduzindo os custos de rede e aumentando a largura de banda."
+    },
+    {
+        "pergunta": "O que é AWS Transit Gateway?",
+        "resposta": "AWS Transit Gateway é um serviço que permite conectar VPCs e redes locais através de um hub central, simplificando a arquitetura de rede e reduzindo relações de peering complexas."
+    },
+    {
+        "pergunta": "O que é AWS Cost Explorer?",
+        "resposta": "AWS Cost Explorer é uma ferramenta que permite visualizar, entender e gerenciar seus custos e uso da AWS ao longo do tempo com gráficos e tabelas personalizáveis."
+    },
+    {
+        "pergunta": "O que são AWS Savings Plans?",
+        "resposta": "AWS Savings Plans são um modelo de preço flexível que oferece economias significativas em comparação com os preços sob demanda, em troca de um compromisso de uso consistente (medido em $/hora) por 1 ou 3 anos."
+    },
+    {
+        "pergunta": "O que é AWS Control Tower?",
+        "resposta": "AWS Control Tower é um serviço que facilita a configuração e governança de um ambiente multi-conta AWS seguro e em conformidade seguindo as melhores práticas."
+    },
+    {
+        "pergunta": "O que é AWS Single Sign-On (SSO)?",
+        "resposta": "AWS SSO é um serviço que facilita o gerenciamento do acesso SSO a várias contas AWS e aplicativos comerciais a partir de um local central."
+    },
+    {
+        "pergunta": "O que é AWS Outposts?",
+        "resposta": "AWS Outposts é um serviço que estende a infraestrutura AWS, serviços, APIs e ferramentas para praticamente qualquer data center, espaço de colocação ou instalação local."
+    },
+    {
+        "pergunta": "O que é Amazon SageMaker?",
+        "resposta": "Amazon SageMaker é um serviço totalmente gerenciado que ajuda desenvolvedores e cientistas de dados a construir, treinar e implantar modelos de machine learning rapidamente."
+    },
+    {
+        "pergunta": "O que é Amazon Comprehend?",
+        "resposta": "Amazon Comprehend é um serviço de processamento de linguagem natural (NLP) que usa machine learning para descobrir informações e relações em texto."
+    },
+    {
+        "pergunta": "O que é Amazon Rekognition?",
+        "resposta": "Amazon Rekognition é um serviço que permite adicionar análise de imagem e vídeo aos seus aplicativos usando machine learning pré-treinado ou personalizado."
+    },
+    {
+        "pergunta": "O que é AWS IoT Core?",
+        "resposta": "AWS IoT Core é um serviço gerenciado que permite que dispositivos IoT conectados interajam com aplicativos na nuvem e outros dispositivos de forma segura e em escala."
+    },
+    {
+        "pergunta": "O que é AWS GreenGrass?",
+        "resposta": "AWS IoT Greengrass é um software que permite executar computação local, mensagens, gerenciamento de dados e sincronização para dispositivos IoT de forma segura."
+    },
+    {
+        "pergunta": "O que é Amazon Elasticsearch Service?",
+        "resposta": "Amazon Elasticsearch Service (agora chamado Amazon OpenSearch Service) é um serviço gerenciado que facilita a implantação, operação e escalonamento do Elasticsearch para pesquisa, análise de logs e monitoramento de aplicativos em tempo real."
+    },
+    {
+        "pergunta": "O que é AWS Glue?",
+        "resposta": "AWS Glue é um serviço de integração de dados sem servidor que facilita a descoberta, preparação e combinação de dados para análise, machine learning e desenvolvimento de aplicativos."
+    },
+    {
+        "pergunta": "O que é Amazon QuickSight?",
+        "resposta": "Amazon QuickSight é um serviço de business intelligence (BI) rápido, em nuvem e sem servidor que facilita a entrega de insights para todos na sua organização."
+    },
+    {
+        "pergunta": "O que é o AWS Free Tier?",
+        "resposta": "AWS Free Tier oferece aos clientes a capacidade de explorar e experimentar serviços AWS gratuitamente, dentro de certos limites de uso, por 12 meses após o cadastro e alguns serviços são sempre gratuitos dentro de certos limites."
+    },
+    {
+        "pergunta": "Quais são os três pilares fundamentais da AWS Well-Architected Framework?",
+        "resposta": "Os cinco pilares são: 1) Excelência operacional, 2) Segurança, 3) Confiabilidade, 4) Eficiência de desempenho e 5) Otimização de custos."
+    },
+    {
+        "pergunta": "O que é o AWS Marketplace?",
+        "resposta": "AWS Marketplace é um catálogo digital com milhares de softwares de fornecedores independentes que são pré-configurados para execução na AWS, facilitando a descoberta, compra e implantação de software."
+    }
+]
