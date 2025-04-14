@@ -206,5 +206,534 @@
     {
         "pergunta": "O que é o AWS Marketplace?",
         "resposta": "AWS Marketplace é um catálogo digital com milhares de softwares de fornecedores independentes que são pré-configurados para execução na AWS, facilitando a descoberta, compra e implantação de software."
+    },
+    
+        {
+        "pergunta": "O que é o AWS Cloud Adoption Framework (AWS CAF)?",
+        "resposta": "O AWS Cloud Adoption Framework (AWS CAF) fornece orientação e melhores práticas para ajudar as organizações a desenvolver estratégias eficientes e eficazes para a adoção da nuvem, organizadas em seis perspectivas: negócios, pessoas, governança, plataforma, segurança e operações."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite migrações de banco de dados com tempo de inatividade mínimo?",
+        "resposta": "AWS Database Migration Service (DMS) permite migrações de bancos de dados com tempo de inatividade mínimo, suportando migrações homogêneas (mesmo engine) e heterogêneas (diferentes engines)."
+    },
+    {
+        "pergunta": "O que é o AWS Landing Zone?",
+        "resposta": "AWS Landing Zone é uma solução que ajuda a configurar um ambiente AWS seguro, multi-conta, baseado nas melhores práticas da AWS para começar rapidamente com a nuvem."
+    },
+    {
+        "pergunta": "Qual serviço da AWS é usado para criar e gerenciar usuários e permissões?",
+        "resposta": "AWS Identity and Access Management (IAM) é o serviço usado para criar e gerenciar usuários, grupos, políticas de permissão e funções na AWS."
+    },
+    {
+        "pergunta": "O que é o AWS Service Catalog?",
+        "resposta": "AWS Service Catalog permite que organizações criem e gerenciem catálogos de recursos de TI aprovados para uso na AWS, dando controle sobre quais serviços e recursos os usuários podem provisionar."
+    },
+    {
+        "pergunta": "Qual serviço da AWS fornece um repositório gerenciado para artefatos de desenvolvimento?",
+        "resposta": "AWS CodeArtifact é um serviço de repositório de artefatos totalmente gerenciado que ajuda as equipes a armazenar, publicar e compartilhar pacotes de software usados em seu processo de desenvolvimento."
+    },
+    {
+        "pergunta": "O que é o AWS CodeCommit?",
+        "resposta": "AWS CodeCommit é um serviço de controle de versão totalmente gerenciado que hospeda repositórios Git privados, eliminando a necessidade de gerenciar sua própria infraestrutura de controle de origem."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite a criação de pipelines de entrega contínua?",
+        "resposta": "AWS CodePipeline é um serviço de entrega contínua totalmente gerenciado que automatiza os pipelines de liberação para atualizações rápidas e confiáveis de aplicativos e infraestrutura."
+    },
+    {
+        "pergunta": "O que é o AWS CodeBuild?",
+        "resposta": "AWS CodeBuild é um serviço de integração contínua totalmente gerenciado que compila código-fonte, executa testes e produz pacotes de software prontos para implantação."
+    },
+    {
+        "pergunta": "Qual serviço da AWS é usado para implantação automatizada de aplicações?",
+        "resposta": "AWS CodeDeploy é um serviço que automatiza implantações de aplicativos para instâncias EC2, serviços no local ou instâncias do Lambda, ajudando a evitar tempo de inatividade durante a implantação."
+    },
+    {
+        "pergunta": "O que é o AWS CodeStar?",
+        "resposta": "AWS CodeStar é um serviço que permite desenvolver, construir e implantar aplicações na AWS rapidamente, fornecendo uma interface unificada para gerenciar atividades de desenvolvimento de software."
+    },
+    {
+        "pergunta": "Qual serviço da AWS fornece ambientes de desenvolvimento na nuvem?",
+        "resposta": "AWS Cloud9 é um ambiente de desenvolvimento integrado (IDE) baseado em nuvem que permite escrever, executar e depurar código com apenas um navegador."
+    },
+    {
+        "pergunta": "O que é o AWS Fault Injection Simulator (FIS)?",
+        "resposta": "AWS Fault Injection Simulator (FIS) é um serviço totalmente gerenciado para realizar experimentos de engenharia de caos na AWS, ajudando a identificar falhas potenciais antes que afetem os clientes."
+    },
+    {
+        "pergunta": "Qual serviço da AWS é usado para monitorar a saúde de recursos?",
+        "resposta": "AWS Personal Health Dashboard fornece alertas e orientações personalizadas quando a AWS identifica eventos que podem afetar seus recursos específicos."
+    },
+    {
+        "pergunta": "O que é o AWS Compute Optimizer?",
+        "resposta": "AWS Compute Optimizer recomenda configurações ideais de recursos AWS para reduzir custos e melhorar o desempenho analisando padrões de utilização."
+    },
+    {
+        "pergunta": "Qual serviço da AWS ajuda a otimizar custos?",
+        "resposta": "AWS Cost and Usage Report é o repositório mais abrangente de dados de custo e uso da AWS, permitindo análises detalhadas de gastos e otimizações."
+    },
+    {
+        "pergunta": "O que é o AWS Budgets?",
+        "resposta": "AWS Budgets permite definir orçamentos personalizados que alertam quando os custos ou uso excedem (ou estão previstos para exceder) seu valor orçado."
+    },
+    {
+        "pergunta": "Qual serviço da AWS fornece recomendações de economia?",
+        "resposta": "AWS Cost Explorer Rightsizing Recommendations analisa padrões de uso e fornece recomendações para reduzir custos alterando tipos de instância EC2 ou comprando Reserved Instances."
+    },
+    {
+        "pergunta": "O que é o AWS License Manager?",
+        "resposta": "AWS License Manager ajuda a gerenciar licenças de software de fornecedores como Microsoft, SAP, Oracle e IBM na AWS, garantindo conformidade e otimizando custos."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite monitorar recursos em várias contas?",
+        "resposta": "AWS Resource Access Manager (RAM) permite compartilhar recursos AWS com outras contas da AWS dentro de sua organização ou unidades organizacionais."
+    },
+    {
+        "pergunta": "O que é o AWS Control Tower?",
+        "resposta": "AWS Control Tower é um serviço que facilita a configuração e governança de um ambiente multi-conta AWS seguro e em conformidade seguindo as melhores práticas."
+    },
+    {
+        "pergunta": "Qual serviço da AWS ajuda a gerenciar tags em recursos?",
+        "resposta": "AWS Resource Groups permite gerenciar e automatizar tarefas em coleções de recursos que compartilham tags comuns, facilitando a organização e governança."
+    },
+    {
+        "pergunta": "O que é o AWS Service Quotas?",
+        "resposta": "AWS Service Quotas permite visualizar e gerenciar cotas (limites) para serviços AWS em sua conta, podendo solicitar aumentos quando necessário."
+    },
+    {
+        "pergunta": "Qual serviço da AWS fornece acesso programático a documentos de conformidade?",
+        "resposta": "AWS Artifact fornece acesso sob demanda a relatórios de segurança e conformidade da AWS, além de aceitações de contrato para simplificar processos de auditoria."
+    },
+    {
+        "pergunta": "O que é o AWS Audit Manager?",
+        "resposta": "AWS Audit Manager ajuda a automatizar auditorias contínuas da AWS para avaliar riscos e conformidade com regulamentos e padrões do setor."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite detectar comportamento anômalo?",
+        "resposta": "Amazon GuardDuty é um serviço de detecção de ameaças que monitora continuamente atividades maliciosas e comportamentos anômalos em sua conta AWS."
+    },
+    {
+        "pergunta": "O que é o AWS Security Hub?",
+        "resposta": "AWS Security Hub fornece uma visão abrangente de seu estado de segurança na AWS, agregando e priorizando alertas de vários serviços de segurança da AWS."
+    },
+    {
+        "pergunta": "Qual serviço da AWS protege contra ataques DDoS?",
+        "resposta": "AWS Shield Advanced fornece proteção contra DDoS para aplicativos em execução em Amazon EC2, Elastic Load Balancing, Amazon CloudFront e AWS Global Accelerator."
+    },
+    {
+        "pergunta": "O que é o AWS Network Firewall?",
+        "resposta": "AWS Network Firewall é um serviço de firewall gerenciado que fornece proteção de rede para suas VPCs, incluindo filtragem de tráfego baseada em regras e proteção contra ameaças conhecidas."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite inspecionar tráfego de rede?",
+        "resposta": "Amazon VPC Traffic Mirroring permite capturar e inspecionar tráfego de rede em sua VPC para fins de monitoramento de segurança e solução de problemas."
+    },
+    {
+        "pergunta": "O que é o AWS Firewall Manager?",
+        "resposta": "AWS Firewall Manager permite configurar e gerenciar centralmente regras de firewall em várias contas e recursos AWS, simplificando a administração de segurança."
+    },
+    {
+        "pergunta": "Qual serviço da AWS fornece certificados SSL/TLS?",
+        "resposta": "AWS Certificate Manager (ACM) provisiona, gerencia e implanta certificados SSL/TLS para uso com serviços AWS, eliminando o processo manual de compra, upload e renovação de certificados."
+    },
+    {
+        "pergunta": "O que é o AWS Secrets Manager?",
+        "resposta": "AWS Secrets Manager ajuda a proteger segredos como credenciais de banco de dados, chaves API e outros dados sensíveis, permitindo rotação automática e acesso controlado."
+    },
+    {
+        "pergunta": "Qual serviço da AWS é usado para criptografia de dados?",
+        "resposta": "AWS Key Management Service (KMS) permite criar e controlar chaves de criptografia usadas para proteger seus dados, integrando-se com muitos outros serviços AWS."
+    },
+    {
+        "pergunta": "O que é o AWS CloudHSM?",
+        "resposta": "AWS CloudHSM fornece módulos de segurança de hardware (HSMs) dedicados na nuvem para gerenciamento de chaves criptográficas em conformidade com requisitos regulatórios rigorosos."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite compartilhar dados com segurança entre contas?",
+        "resposta": "AWS Resource Access Manager (RAM) permite compartilhar recursos AWS com outras contas de forma segura e controlada, sem precisar criar cópias dos dados."
+    },
+    {
+        "pergunta": "O que é o AWS DataSync?",
+        "resposta": "AWS DataSync é um serviço de transferência de dados que simplifica, acelera e automatiza a movimentação de dados entre ambientes locais e serviços de armazenamento AWS."
+    },
+    {
+        "pergunta": "Qual serviço da AWS é usado para transferência de arquivos?",
+        "resposta": "AWS Transfer Family fornece servidores totalmente gerenciados que suportam protocolos como SFTP, FTPS e FTP para transferência segura de arquivos para e do Amazon S3 ou EFS."
+    },
+    {
+        "pergunta": "O que é o AWS Storage Gateway?",
+        "resposta": "AWS Storage Gateway é um serviço híbrido que conecta ambientes locais a armazenamento em nuvem, fornecendo acesso de baixa latência a dados no AWS Cloud."
+    },
+    {
+        "pergunta": "Qual serviço da AWS fornece armazenamento em bloco de alta performance?",
+        "resposta": "Amazon Elastic Block Store (EBS) io2 Block Express volumes fornecem armazenamento em bloco de alto desempenho com até 256.000 IOPS e 4.000 MB/s de throughput por volume."
+    },
+    {
+        "pergunta": "O que é o Amazon FSx?",
+        "resposta": "Amazon FSx fornece sistemas de arquivos totalmente gerenciados de alto desempenho compatíveis com Windows File Server, Lustre, NetApp ONTAP e OpenZFS."
+    },
+    {
+        "pergunta": "Qual serviço da AWS é usado para backup de dados?",
+        "resposta": "AWS Backup é um serviço centralizado que automatiza e gerencia backups de dados em vários serviços AWS como EBS, RDS, DynamoDB, EFS e Storage Gateway."
+    },
+    {
+        "pergunta": "O que é o Amazon S3 Glacier?",
+        "resposta": "Amazon S3 Glacier é uma classe de armazenamento segura, durável e extremamente econômica para arquivamento de dados, com tempos de recuperação configuráveis de minutos a horas."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite análises em dados armazenados no S3?",
+        "resposta": "Amazon Athena é um serviço de consulta interativa sem servidor que facilita analisar dados no Amazon S3 usando SQL padrão, sem necessidade de infraestrutura para gerenciar."
+    },
+    {
+        "pergunta": "O que é o Amazon Redshift?",
+        "resposta": "Amazon Redshift é um data warehouse em nuvem totalmente gerenciado que permite analisar grandes volumes de dados rapidamente usando SQL e ferramentas de BI existentes."
+    },
+    {
+        "pergunta": "Qual serviço da AWS é usado para processamento de big data?",
+        "resposta": "Amazon EMR (Elastic MapReduce) é uma plataforma gerenciada que facilita processar grandes quantidades de dados usando frameworks de código aberto como Apache Spark, Hadoop e Presto."
+    },
+    {
+        "pergunta": "O que é o AWS Lake Formation?",
+        "resposta": "AWS Lake Formation ajuda a construir, proteger e gerenciar data lakes seguros, organizando dados de várias fontes em um catálogo central com controle de acesso granular."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite criar pipelines de dados?",
+        "resposta": "AWS Glue é um serviço de integração de dados sem servidor que fornece recursos de ETL (Extract, Transform, Load) para preparar e carregar dados para análise."
+    },
+    {
+        "pergunta": "O que é o Amazon Kinesis Data Streams?",
+        "resposta": "Amazon Kinesis Data Streams permite coletar e processar grandes fluxos de dados em tempo real, possibilitando análise imediata de informações como cliques em sites, logs e feeds de mídia social."
+    },
+    {
+        "pergunta": "Qual serviço da AWS é usado para processamento de eventos?",
+        "resposta": "Amazon EventBridge (anteriormente CloudWatch Events) é um barramento de eventos sem servidor que facilita conectar aplicações usando dados de seus próprios aplicativos, aplicações SaaS e serviços AWS."
+    },
+    {
+        "pergunta": "O que é o AWS AppSync?",
+        "resposta": "AWS AppSync simplifica o desenvolvimento de aplicativos GraphQL fornecendo um endpoint gerenciado para consultar, atualizar ou publicar dados em tempo real entre aplicativos móveis e web."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite criar APIs RESTful?",
+        "resposta": "Amazon API Gateway é um serviço totalmente gerenciado que facilita criar, publicar, manter, monitorar e proteger APIs REST, HTTP e WebSocket em qualquer escala."
+    },
+    {
+        "pergunta": "O que é o AWS Step Functions?",
+        "resposta": "AWS Step Functions é um serviço de orquestração de fluxo de trabalho que permite coordenar componentes distribuídos de aplicativos usando fluxos de trabalho visuais baseados em estados."
+    },
+    {
+        "pergunta": "Qual serviço da AWS é usado para filas de mensagens?",
+        "resposta": "Amazon Simple Queue Service (SQS) é um serviço de fila de mensagens totalmente gerenciado que permite desacoplar e dimensionar microsserviços, sistemas distribuídos e aplicações serverless."
+    },
+    {
+        "pergunta": "O que é o Amazon MQ?",
+        "resposta": "Amazon MQ é um serviço de broker de mensagens gerenciado para Apache ActiveMQ e RabbitMQ que facilita migrar para a nuvem aplicações que usam protocolos de mensageria como JMS, AMQP e MQTT."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite notificações push?",
+        "resposta": "Amazon Simple Notification Service (SNS) é um serviço de mensagens pub/sub totalmente gerenciado que permite enviar notificações para assinantes via SMS, email, HTTP ou Lambda."
+    },
+    {
+        "pergunta": "O que é o Amazon Simple Email Service (SES)?",
+        "resposta": "Amazon SES é um serviço de email em nuvem que permite enviar emails transacionais, de marketing ou de notificação de forma econômica e com alta capacidade de entrega."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite tradução de texto?",
+        "resposta": "Amazon Translate é um serviço de tradução automática neural que fornece traduções de texto rápida, de alta qualidade e acessível em vários idiomas."
+    },
+    {
+        "pergunta": "O que é o Amazon Polly?",
+        "resposta": "Amazon Polly é um serviço que transforma texto em fala realista, permitindo criar aplicações que falam e construir produtos com capacidades de fala inovadoras."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite reconhecimento de voz?",
+        "resposta": "Amazon Transcribe é um serviço de reconhecimento automático de fala (ASR) que converte fala em texto de forma precisa, tornando o conteúdo de áudio pesquisável e acessível."
+    },
+    {
+        "pergunta": "O que é o Amazon Lex?",
+        "resposta": "Amazon Lex é um serviço para construir interfaces de conversação usando voz e texto, com a mesma tecnologia de deep learning que alimenta o Alexa."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite reconhecimento facial?",
+        "resposta": "Amazon Rekognition fornece análise de imagem e vídeo baseada em deep learning, incluindo reconhecimento facial, detecção de objetos e cenas, e moderação de conteúdo."
+    },
+    {
+        "pergunta": "O que é o Amazon Textract?",
+        "resposta": "Amazon Textract extrai texto e dados estruturados de documentos digitalizados usando machine learning, eliminando a necessidade de digitação manual ou OCR tradicional."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite previsões baseadas em dados históricos?",
+        "resposta": "Amazon Forecast é um serviço de previsão de séries temporais totalmente gerenciado que usa machine learning para gerar previsões precisas sem necessidade de experiência em ML."
+    },
+    {
+        "pergunta": "O que é o Amazon Personalize?",
+        "resposta": "Amazon Personalize permite criar recomendações personalizadas em tempo real usando as mesmas tecnologias de machine learning da Amazon.com, sem necessidade de experiência em ML."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite detecção de anomalias?",
+        "resposta": "Amazon Lookout for Metrics usa machine learning para detectar automaticamente anomalias em métricas de negócios e identificar suas causas raiz."
+    },
+    {
+        "pergunta": "O que é o Amazon Fraud Detector?",
+        "resposta": "Amazon Fraud Detector é um serviço totalmente gerenciado que identifica atividades fraudulentas online potencialmente suspeitas, como pagamentos fraudulentos e criação de contas falsas."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite processamento de documentos?",
+        "resposta": "Amazon Comprehend Medical extrai informações medicamente relevantes de texto não estruturado, como prescrições, relatórios de exames e notas clínicas."
+    },
+    {
+        "pergunta": "O que é o Amazon Augmented AI (A2I)?",
+        "resposta": "Amazon Augmented AI (A2I) facilita a adição de revisão humana a previsões de machine learning, garantindo que apenas previsões de alta confiança sejam implementadas automaticamente."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite treinar modelos de ML?",
+        "resposta": "Amazon SageMaker é um serviço totalmente gerenciado que fornece todas as ferramentas necessárias para construir, treinar e implantar modelos de machine learning em escala."
+    },
+    {
+        "pergunta": "O que é o Amazon Neptune?",
+        "resposta": "Amazon Neptune é um serviço de banco de dados de grafo rápido, confiável e totalmente gerenciado que ajuda a construir e executar aplicações que funcionam com conjuntos de dados altamente conectados."
+    },
+    {
+        "pergunta": "Qual serviço da AWS é usado para bancos de dados em memória?",
+        "resposta": "Amazon ElastiCache fornece armazenamento de dados em memória totalmente gerenciado e compatível com Redis ou Memcached, melhorando o desempenho de aplicações web."
+    },
+    {
+        "pergunta": "O que é o Amazon Timestream?",
+        "resposta": "Amazon Timestream é um banco de dados de séries temporais rápido, escalável e sem servidor que facilita armazenar e analisar trilhões de eventos por dia com custo 1/10 de bancos de dados relacionais tradicionais."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite consultas federadas?",
+        "resposta": "Amazon Athena Federated Query permite consultar dados em fontes locais ou outros serviços sem precisar mover os dados, usando conectores pré-construídos ou personalizados."
+    },
+    {
+        "pergunta": "O que é o AWS Database Migration Service (DMS)?",
+        "resposta": "AWS Database Migration Service (DMS) ajuda a migrar bancos de dados para a AWS de forma rápida e segura, com tempo de inatividade mínimo durante a migração."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite migrar servidores para a nuvem?",
+        "resposta": "AWS Application Migration Service (MGN) ajuda a migrar servidores físicos, virtuais ou em nuvem para a AWS, automatizando conversões e reduzindo tempo de inatividade."
+    },
+    {
+        "pergunta": "O que é o AWS Migration Hub?",
+        "resposta": "AWS Migration Hub fornece um local único para rastrear o progresso de migrações de aplicativos em várias contas AWS e ferramentas de migração."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite migração de mainframes?",
+        "resposta": "AWS Mainframe Modernization ajuda a migrar, modernizar e executar aplicativos de mainframe na AWS, fornecendo ambientes de tempo de execução e ferramentas de conversão."
+    },
+    {
+        "pergunta": "O que é o AWS Data Exchange?",
+        "resposta": "AWS Data Exchange é um serviço que facilita encontrar, assinar e usar arquivos de dados de terceiros na nuvem AWS, sem necessidade de armazenar ou gerenciar os dados você mesmo."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite transferência de dados em larga escala?",
+        "resposta": "AWS Snow Family (Snowcone, Snowball, Snowmobile) fornece dispositivos físicos seguros para transferir petabytes ou exabytes de dados para a AWS quando a conexão de internet é limitada."
+    },
+    {
+        "pergunta": "O que é o AWS App Runner?",
+        "resposta": "AWS App Runner é um serviço totalmente gerenciado que facilita implantar rapidamente aplicações web e APIs em contêineres, abstraindo toda a infraestrutura subjacente."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite executar contêineres sem servidor?",
+        "resposta": "AWS Fargate é um mecanismo de computação sem servidor para contêineres que funciona com Amazon ECS e EKS, eliminando a necessidade de gerenciar servidores ou clusters."
+    },
+    {
+        "pergunta": "O que é o Amazon Elastic Container Registry (ECR)?",
+        "resposta": "Amazon ECR é um registro de contêineres Docker totalmente gerenciado que facilita armazenar, gerenciar e implantar imagens de contêineres para aplicações."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite orquestração de contêineres?",
+        "resposta": "Amazon Elastic Container Service (ECS) é um serviço de orquestração de contêineres altamente escalável e de alto desempenho que suporta contêineres Docker e permite executar aplicações em um cluster gerenciado de instâncias EC2."
+    },
+    {
+        "pergunta": "O que é o Amazon Elastic Kubernetes Service (EKS)?",
+        "resposta": "Amazon EKS é um serviço gerenciado que facilita executar Kubernetes na AWS sem precisar instalar, operar e manter seu próprio cluster Kubernetes."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite implementar aplicações em edge locations?",
+        "resposta": "AWS Lambda@Edge permite executar funções Lambda em locais edge da CloudFront, permitindo personalizar o conteúdo entregue aos usuários finais com baixa latência."
+    },
+    {
+        "pergunta": "O que é o AWS Outposts?",
+        "resposta": "AWS Outposts é um serviço que estende a infraestrutura AWS, serviços, APIs e ferramentas para data centers locais, espaços de colocação ou instalações no local."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite conexão privada com a nuvem?",
+        "resposta": "AWS Direct Connect estabelece uma conexão de rede dedicada entre seu data center e a AWS, reduzindo custos de rede, aumentando a largura de banda e proporcionando uma experiência de rede mais consistente."
+    },
+    {
+        "pergunta": "O que é o AWS Global Accelerator?",
+        "resposta": "AWS Global Accelerator é um serviço de rede que melhora a disponibilidade e desempenho de suas aplicações para usuários globais, usando a infraestrutura de rede global da AWS."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite balanceamento de carga?",
+        "resposta": "Elastic Load Balancing (ELB) distribui automaticamente o tráfego de entrada de aplicações entre múltiplos destinos, como instâncias EC2, contêineres e endereços IP, em uma ou mais Availability Zones."
+    },
+    {
+        "pergunta": "O que é o AWS Transit Gateway?",
+        "resposta": "AWS Transit Gateway conecta VPCs e redes locais através de um hub central, simplificando a arquitetura de rede e reduzindo relações de peering complexas."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite análise de redes?",
+        "resposta": "Amazon VPC Reachability Analyzer ajuda a identificar e solucionar problemas de conectividade de rede em sua VPC, verificando automaticamente se existe um caminho de rede entre origem e destino."
+    },
+    {
+        "pergunta": "O que é o AWS PrivateLink?",
+        "resposta": "AWS PrivateLink fornece conectividade privada entre VPCs, serviços AWS e seus próprios serviços on-premises, sem expor dados à internet pública."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite monitoramento de redes?",
+        "resposta": "Amazon CloudWatch Network Monitor ajuda a detectar e diagnosticar problemas de conectividade de rede entre recursos AWS e locais na internet."
+    },
+    {
+        "pergunta": "O que é o AWS App Mesh?",
+        "resposta": "AWS App Mesh é um service mesh que fornece observabilidade e controle de tráfego para microsserviços em contêineres, permitindo comunicação segura e monitoramento entre serviços."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite gerenciar certificados SSL?",
+        "resposta": "AWS Certificate Manager (ACM) permite provisionar, gerenciar e implantar certificados SSL/TLS para uso com serviços AWS, automatizando a renovação de certificados."
+    },
+    {
+        "pergunta": "O que é o AWS Ground Station?",
+        "resposta": "AWS Ground Station é um serviço totalmente gerenciado que permite controlar satélites e ingerir dados de satélite em escala, sem precisar construir ou gerenciar sua própria infraestrutura terrestre."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite desenvolvimento de jogos?",
+        "resposta": "Amazon GameLift é um serviço gerenciado para implantar, operar e dimensionar servidores dedicados para jogos multiplayer, eliminando trabalho pesado de infraestrutura."
+    },
+    {
+        "pergunta": "O que é o AWS RoboMaker?",
+        "resposta": "AWS RoboMaker é um serviço de nuvem para desenvolvimento de aplicações robóticas que fornece um ambiente de desenvolvimento, simulação e gerenciamento de frota totalmente gerenciado."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite realidade aumentada?",
+        "resposta": "Amazon Sumerian permite criar e executar aplicações de realidade virtual (VR), realidade aumentada (AR) e 3D sem exigir experiência em programação ou gráficos 3D."
+    },
+    {
+        "pergunta": "O que é o AWS IoT Core?",
+        "resposta": "AWS IoT Core é um serviço gerenciado que permite que dispositivos IoT conectados interajam com aplicativos na nuvem e outros dispositivos de forma segura e em escala."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite monitoramento de dispositivos IoT?",
+        "resposta": "AWS IoT Device Management ajuda a registrar, organizar, monitorar e gerenciar remotamente dispositivos IoT em escala, incluindo atualizações de firmware over-the-air."
+    },
+    {
+        "pergunta": "O que é o AWS IoT Greengrass?",
+        "resposta": "AWS IoT Greengrass é software que permite executar computação local, mensagens, gerenciamento de dados e sincronização para dispositivos IoT de forma segura."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite análise de dados IoT?",
+        "resposta": "AWS IoT Analytics é um serviço totalmente gerenciado que facilita executar análises sofisticadas em grandes volumes de dados IoT sem precisar se preocupar com os desafios de custo e complexidade normalmente associados à construção de uma plataforma analítica IoT."
+    },
+    {
+        "pergunta": "O que é o AWS IoT Events?",
+        "resposta": "AWS IoT Events detecta e responde a eventos de equipamentos IoT e processos industriais, permitindo criar modelos de equipamentos que monitoram continuamente dados de sensores para identificar falhas operacionais ou mudanças de estado."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite controle industrial?",
+        "resposta": "AWS IoT SiteWise é um serviço gerenciado que facilita coletar, organizar e analisar dados de equipamentos industriais em escala, ajudando a tomar decisões baseadas em dados para melhorar operações."
+    },
+    {
+        "pergunta": "O que é o AWS IoT Things Graph?",
+        "resposta": "AWS IoT Things Graph fornece uma maneira visual de conectar dispositivos e serviços web para criar aplicativos IoT, usando modelos que definem interações entre dispositivos sem escrever código."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite gerenciar frotas de veículos?",
+        "resposta": "AWS IoT FleetWise facilita coletar, transformar e transferir dados de veículos em escala para a nuvem em tempo quase real, padronizando formatos de dados de diferentes fabricantes."
+    },
+    {
+        "pergunta": "O que é o AWS Panorama?",
+        "resposta": "AWS Panorama é um kit de desenvolvimento de aplicativos de visão computacional que permite adicionar análises baseadas em computador a câmeras existentes em fábricas, varejo e outros ambientes industriais."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite desenvolvimento de aplicações móveis?",
+        "resposta": "AWS Amplify é um conjunto de ferramentas e serviços que ajuda desenvolvedores front-end e mobile a criar, implantar e hospedar aplicativos web e móveis completos na AWS, com recursos como autenticação, armazenamento de dados e APIs."
+    },
+    {
+        "pergunta": "O que é o Amazon Location Service?",
+        "resposta": "Amazon Location Service fornece dados de localização e funcionalidades de mapeamento para aplicativos, permitindo adicionar mapas, pontos de interesse, geocodificação, roteamento e rastreamento sem comprometer privacidade ou qualidade de dados."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite notificações para apps móveis?",
+        "resposta": "Amazon Pinpoint é um serviço de engajamento multicanais que ajuda a enviar notificações push, SMS, email e voz para usuários de aplicativos móveis, com segmentação e personalização avançadas."
+    },
+    {
+        "pergunta": "O que é o AWS AppSync?",
+        "resposta": "AWS AppSync simplifica o desenvolvimento de aplicativos GraphQL fornecendo um endpoint gerenciado para consultar, atualizar ou publicar dados em tempo real entre aplicativos móveis e web."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite teste de aplicativos em dispositivos reais?",
+        "resposta": "AWS Device Farm é um serviço de teste de aplicativos que permite testar seus aplicativos Android, iOS e web em smartphones e tablets reais na nuvem AWS, sem precisar configurar e manter seu próprio laboratório de dispositivos."
+    },
+    {
+        "pergunta": "O que é o AWS Honeycode?",
+        "resposta": "AWS Honeycode é um serviço que permite criar aplicativos móveis e web sem escrever código, usando uma interface de planilha familiar para definir lógica e fluxos de trabalho."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite armazenamento para apps móveis?",
+        "resposta": "Amazon Cognito Sync (parte do Amazon Cognito) permite sincronizar dados de aplicativos entre dispositivos e a nuvem, fornecendo armazenamento local e sincronização automática quando o dispositivo está online."
+    },
+    {
+        "pergunta": "O que é o AWS Elemental MediaConnect?",
+        "resposta": "AWS Elemental MediaConnect é um serviço de transporte de vídeo ao vivo que fornece fluxos de vídeo de alta qualidade, confiáveis e seguros para processamento e distribuição na nuvem."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite processamento de vídeo?",
+        "resposta": "AWS Elemental MediaConvert é um serviço de processamento de vídeo baseado em arquivo que fornece transcodificação broadcast-grade para entrega de vídeo para transmissão e multiscreen."
+    },
+    {
+        "pergunta": "O que é o AWS Elemental MediaLive?",
+        "resposta": "AWS Elemental MediaLive é um serviço de processamento de vídeo ao vivo que codifica vídeos ao vivo para transmissão para televisões ou entrega para dispositivos conectados à internet."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite empacotamento de vídeo?",
+        "resposta": "AWS Elemental MediaPackage prepara e protege vídeos ao vivo e sob demanda para entrega através da internet, fornecendo origens para players de vídeo em vários formatos como HLS e DASH."
+    },
+    {
+        "pergunta": "O que é o AWS Elemental MediaStore?",
+        "resposta": "AWS Elemental MediaStore é um armazenamento otimizado para mídia que fornece desempenho consistente e baixa latência para entrega de vídeo ao vivo e sob demanda em escala."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite análise de vídeo?",
+        "resposta": "AWS Elemental MediaTailor insere anúncios em fluxos de vídeo de forma personalizada para cada visualizador, aumentando a monetização sem sacrificar a qualidade da experiência de visualização."
+    },
+    {
+        "pergunta": "O que é o Amazon Interactive Video Service (IVS)?",
+        "resposta": "Amazon IVS é um serviço de streaming ao vivo gerenciado que permite criar experiências interativas de vídeo de baixa latência, usando a mesma tecnologia que alimenta a Twitch."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite transcrição de áudio?",
+        "resposta": "Amazon Transcribe converte fala em texto automaticamente, tornando o conteúdo de áudio pesquisável e acessível, com suporte para vários idiomas e canais de áudio."
+    },
+    {
+        "pergunta": "O que é o Amazon Chime SDK?",
+        "resposta": "Amazon Chime SDK permite adicionar capacidades de áudio, vídeo e compartilhamento de tela a aplicativos web e móveis, usando a mesma tecnologia que alimenta o serviço Amazon Chime."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite chamadas de voz?",
+        "resposta": "Amazon Connect é um centro de contato na nuvem fácil de usar e escalável que permite melhorar a experiência do cliente a um custo significativamente menor que soluções tradicionais."
+    },
+    {
+        "pergunta": "O que é o AWS Wickr?",
+        "resposta": "AWS Wickr é um serviço de comunicação segura que fornece mensagens, chamadas de voz e vídeo, compartilhamento de arquivos e colaboração com criptografia end-to-end para organizações."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite gerenciamento de conteúdo?",
+        "resposta": "Amazon WorkDocs é um serviço de armazenamento e compartilhamento de arquivos totalmente gerenciado com recursos avançados de segurança e colaboração para empresas."
+    },
+    {
+        "pergunta": "O que é o Amazon WorkMail?",
+        "resposta": "Amazon WorkMail é um serviço de email e calendário empresarial seguro e gerenciado que funciona perfeitamente com os clientes de email existentes como Microsoft Outlook."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite gerenciamento de tarefas?",
+        "resposta": "Amazon Honeycode (agora parte do Amazon WorkMail) permite criar aplicativos personalizados de gerenciamento de tarefas e fluxos de trabalho sem escrever código, usando uma interface baseada em planilhas."
+    },
+    {
+        "pergunta": "O que é o Amazon AppFlow?",
+        "resposta": "Amazon AppFlow é um serviço de integração de dados totalmente gerenciado que permite transferir dados com segurança entre aplicativos SaaS como Salesforce, Slack e ServiceNow, e serviços AWS como S3 e Redshift."
+    },
+    {
+        "pergunta": "Qual serviço da AWS permite automação de processos?",
+        "resposta": "AWS Step Functions permite orquestrar componentes distribuídos de aplicativos como fluxos de trabalho visuais, automatizando processos e fluxos de trabalho entre vários serviços AWS."
     }
 ]
