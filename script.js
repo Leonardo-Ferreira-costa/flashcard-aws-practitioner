@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const newCardBtn = document.getElementById('new-card-btn');
     const flipCardBtn = document.getElementById('flip-card-btn');
     const cardCount = document.getElementById('card-count');
-    const progressFill = document.getElementById('progress-fill');
     
     let cards = [];
     let currentCardIndex = -1;
@@ -15,7 +14,6 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(response => response.json())
         .then(data => {
             cards = data;
-            updateProgress();
             showRandomCard();
         })
         .catch(error => {
@@ -23,40 +21,36 @@ document.addEventListener('DOMContentLoaded', function() {
             cardFront.querySelector('.card-content').innerHTML = '<p>Erro ao carregar os cards. Verifique o console.</p>';
         });
     
-    // Mostra um card aleatório
-    function showRandomCard() {
-        if (cards.length === 0) return;
-        
-        currentCardIndex = Math.floor(Math.random() * cards.length);
-        const card = cards[currentCardIndex];
-        
-        cardFront.querySelector('.card-content').innerHTML = `
-            <h2>${card.pergunta}</h2>
-            <p>Dica: Clique no card ou no botão para ver a resposta</p>
-        `;
-        
-        cardBack.querySelector('.card-content').innerHTML = `
-            <h2>Resposta</h2>
-            <p>${card.resposta}</p>
-        `;
-        
-        // Reseta a animação do card
-        flashcard.classList.remove('flipped');
-        
-        // Animação de entrada do novo card
-        flashcard.style.animation = 'none';
-        void flashcard.offsetWidth; // Trigger reflow
-        flashcard.style.animation = 'cardAppear 0.5s ease-out';
-        
-        updateProgress();
-    }
+   // Mostra um card aleatório
+function showRandomCard() {
+    if (cards.length === 0) return;
     
-    // Atualiza o progresso
-    function updateProgress() {
-        const progress = cards.length > 0 ? ((currentCardIndex + 1) / cards.length) * 100 : 0;
-        progressFill.style.width = `${progress}%`;
-        cardCount.textContent = `${cards.length > 0 ? currentCardIndex + 1 : 0}/${cards.length}`;
-    }
+    // Garante que o card volte para o lado frontal
+    flashcard.classList.remove('flipped');
+    flashcard.style.transform = 'rotateY(0deg)';
+    
+    currentCardIndex = Math.floor(Math.random() * cards.length);
+    const card = cards[currentCardIndex];
+    
+    cardFront.querySelector('.card-content').innerHTML = `
+        <h2>${card.pergunta}</h2>
+        <p>Dica: Clique no card ou no botão para ver a resposta</p>
+    `;
+    
+    cardBack.querySelector('.card-content').innerHTML = `
+        <h2>Resposta</h2>
+        <p>${card.resposta}</p>
+    `;
+    
+    // Animação de entrada do novo card
+    flashcard.style.animation = 'none';
+    void flashcard.offsetWidth; // Trigger reflow
+    flashcard.style.animation = 'cardAppear 0.5s ease-out';
+    
+
+}
+    
+  
     
     // Event listeners
     newCardBtn.addEventListener('click', showRandomCard);
